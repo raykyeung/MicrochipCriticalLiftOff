@@ -1,5 +1,5 @@
 function hText = B2KTextAlignedToLineLogLogPlot(ax,x,y,txt,m,varargin)
-%% B2KTextAlignedToLineLogLogPlot.m - [Function] Align to text annotation to power-law linear line in log-log scale
+%% B2KTextAlignedToLineLogLogPlot.m - [Function] Align text annotation to power-law linear line in log-log scale
 %
 % Author: Raymond Yeung
 % Release date: 2025

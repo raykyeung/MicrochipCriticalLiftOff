@@ -4,7 +4,15 @@
 This code was used in the following paper:
 Yeung, R., Sainz, C., Mandala, J., Brisk, P., Grover, W. H., and Rodgers, V. G. J. “Characterization of the critical lift-off of a single flat-plate microchip particle in straight rectangular microchannel flows”. International Journal of Multiphase Flow, 193: 105355 (2025). doi: https://doi.org/10.1016/j.ijmultiphaseflow.2025.105355
 
-This code was run using MATLAB R2024b on Windows 10/11. File paths need to be modified for Unix-based platforms (macOS, Linux).
+This code was run using MATLAB R2024b (using the Java-based desktop and graphics system) on Windows 10/11. File paths need to be modified for Unix-based platforms (macOS, Linux). MATLAB versions R2025a and above, which uses a new environment based on HTML and JavaScript, may cause unintended graphical issues.
+
+## How to setup the MATLAB Project
+1. Open MATLAB (current version tested for MATLAB R2024b).
+2. Navigate to the 'HOME' tab, and then click 'New' > 'Project', 'From Git'.
+    1. Ensure 'Source control tool' uses Git
+    2. For the 'Repository path', enter: "https://github.com/raykyeung/MicrochipCriticalLiftOff"
+    3. For the 'Sandbox", select a suitable location for the local repository (ex. "C:\Users\USERNAME\LocalGitRepo\MicrochipCriticalLiftOff")
+    4. Click 'Retrieve' and allow MATLAB to pull all files. Project dependencies and tracking are handled by the .prj file and 'resources' folder.
 
 ## Structure of the MATLAB Project
 ### Main script

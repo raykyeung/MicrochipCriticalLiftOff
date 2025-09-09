@@ -1,6 +1,8 @@
 # MicrochipCriticalLiftOff
 
 ## MATLAB project for data analysis for the characterization of the critical lift-off of non-neutrally buoyant, square flat-plate microchip particles in microchannel flows
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17082194.svg)](https://doi.org/10.5281/zenodo.17082194)
+
 This code was used in the following paper:
 Yeung, R., Sainz, C., Mandala, J., Brisk, P., Grover, W. H., and Rodgers, V. G. J. “Characterization of the critical lift-off of a single flat-plate microchip particle in straight rectangular microchannel flows”. International Journal of Multiphase Flow, 193: 105355 (2025). doi: https://doi.org/10.1016/j.ijmultiphaseflow.2025.105355
 

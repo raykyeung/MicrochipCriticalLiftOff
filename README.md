@@ -16,7 +16,17 @@ This code was run using MATLAB R2024b (using the Java-based desktop and graphics
 
 ## Structure of the MATLAB Project
 ### Main script
-**B2KCriticalLiftOff.m** - main script to perform the analysis.
+**B2KCriticalLiftOff.m** - main script to perform the analysis. Briefly, the script performs the following:
+1. Defines parameters chosen for independent and dependent variables
+2. Inputs all experimentally observed critical lift-off flow rates for all channel and solvent configurations
+3. Inputs comparison data
+4. Imports and parses data from computational simulations using COMSOL Multiphysics
+5. Defines all parameter properties with their associated strings and dimensions
+6. Evaluate all parameter properties for all configurations
+7. Perform analysis including non-linear regression of parameters for the corrected generalized lift-off model using a remodified Archimedes number
+8. Export all figures
+9. Save log file containing dependency information and required program files
+
 ### Functions
 **B2KAnnotateModelParams** - function to output text annotation for model parameters with uncertainties to 1 significant figure.
 **B2KFormatValuesToStrOneSigFigMaxUnc** - function to rounds values based on 1 significant figure of the maximum uncertainty for all values and formats as strings

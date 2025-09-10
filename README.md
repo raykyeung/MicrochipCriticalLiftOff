@@ -30,8 +30,8 @@ This code was run using MATLAB R2024b (using the Java-based desktop and graphics
 9. Save log file containing dependency information and required program files
 
 ### Functions
-**B2KAnnotateModelParams** - Function to output text annotation for model parameters with uncertainties to 1 significant figure.
-**B2KFormatValuesToStrOneSigFigMaxUnc** - function to rounds values based on 1 significant figure of the maximum uncertainty for all values and formats as strings
+**B2KAnnotateModelParams** - Function to output text annotation for model parameters with uncertainties to 1 significant figure\
+**B2KFormatValuesToStrOneSigFigMaxUnc** - function to rounds values based on 1 significant figure of the maximum uncertainty for all values and formats as strings\
 **B2KTextAlignedToLineLogLogPlot** - function to align text annotation to power-law linear line in log-log scale
 ### Classes
 **B2KAllParametersLiftOff** - Class containing all equations for evaluating particulate flow properties including the area domain size, $HW/d^2$, and dimensionless numbers, $\mathrm{Re}$ and $\mathrm{Ar}$.

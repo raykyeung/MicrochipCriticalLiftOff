@@ -30,20 +30,20 @@ This code was run using MATLAB R2024b (using the Java-based desktop and graphics
 9. Save log file containing dependency information and required program files
 
 ### Functions
-**B2KAnnotateModelParams** - Function to output text annotation for model parameters with uncertainties to 1 significant figure\
-**B2KFormatValuesToStrOneSigFigMaxUnc** - Function to rounds values based on 1 significant figure of the maximum uncertainty for all values and formats as strings\
-**B2KTextAlignedToLineLogLogPlot** - Function to align text annotation to power-law linear line in log-log scale
+**B2KAnnotateModelParams.m** - Function to output text annotation for model parameters with uncertainties to 1 significant figure\
+**B2KFormatValuesToStrOneSigFigMaxUnc.m** - Function to rounds values based on 1 significant figure of the maximum uncertainty for all values and formats as strings\
+**B2KTextAlignedToLineLogLogPlot.m** - Function to align text annotation to power-law linear line in log-log scale
 ### Classes
-**B2KAllParametersLiftOff** - Class containing all equations for evaluating particulate flow properties including the area domain size, $HW/d^2$, and dimensionless numbers, $\mathrm{Re}$ and $\mathrm{Ar}$.
+**B2KAllParametersLiftOff.m** - Class containing all equations for evaluating particulate flow properties including the area domain size, $HW/d^2$, and dimensionless numbers, $\mathrm{Re}$ and $\mathrm{Ar}$.
 #### +B2KConstants
 Classes for storing particle and fluid properties:
-* @Acetonitrile
-* @Ethanol
-* @Glycerol
-* @Isopropanol
-* @Methanol
-* @pChip
-* @Water
+* @Acetonitrile.m
+* @Ethanol.m
+* @Glycerol.m
+* @Isopropanol.m
+* @Methanol.m
+* @pChip.m
+* @Water.m
 
 ## Copyright
 Copyright (c) 2025 Raymond K. Yeung
